@@ -13,6 +13,8 @@ import { PluckComponent } from './observable/pluck/pluck.component';
 import { FilterComponent } from './observable/filter/filter.component';
 import { TapComponent } from './observable/tap/tap.component';
 import { TakeComponent } from './observable/take/take.component';
+import { RetryyComponent } from './observable/retryy/retryy.component';
+import { DebouncetimeComponent } from './observable/debouncetime/debouncetime.component';
 
 const routes: Routes = [
   {path:'promise',component:PromiseComponent},
@@ -27,7 +29,9 @@ const routes: Routes = [
     {path:'pluck',component:PluckComponent},
     {path:'filter',component:FilterComponent},
     {path:'tap',component:TapComponent},
-    {path:'take',component: TakeComponent}
+    {path:'take',component: TakeComponent},
+    {path:'retry',component:RetryyComponent},
+    {path:'debounceTime',component:DebouncetimeComponent}
   ]},
   {path:'**',redirectTo:'promise'}
 ];
