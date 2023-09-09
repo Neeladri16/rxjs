@@ -11,7 +11,7 @@ export class OfFromComponent implements OnInit {
   obsMsg;
   constructor(private _designUtility: DesignUtilityService) {}
 
-  ngOnInit(): void {
+  ngOnInit(): void { 
     //OF
 
     const obs1 = of('Anup', 'Shekhar', 'Sharma');

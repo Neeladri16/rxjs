@@ -15,6 +15,7 @@ import { TapComponent } from './observable/tap/tap.component';
 import { TakeComponent } from './observable/take/take.component';
 import { RetryyComponent } from './observable/retryy/retryy.component';
 import { DebouncetimeComponent } from './observable/debouncetime/debouncetime.component';
+import { SubjectAndBehaviourComponent } from './observable/subject-and-behaviour/subject-and-behaviour.component';
 
 const routes: Routes = [
   {path:'promise',component:PromiseComponent},
@@ -31,7 +32,8 @@ const routes: Routes = [
     {path:'tap',component:TapComponent},
     {path:'take',component: TakeComponent},
     {path:'retry',component:RetryyComponent},
-    {path:'debounceTime',component:DebouncetimeComponent}
+    {path:'debounceTime',component:DebouncetimeComponent},
+    {path:'subject', component:SubjectAndBehaviourComponent}
   ]},
   {path:'**',redirectTo:'promise'}
 ];

@@ -21,6 +21,10 @@ import { RetryyComponent } from './observable/retryy/retryy.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DebouncetimeComponent } from './observable/debouncetime/debouncetime.component';
 import { LoadingBarModule } from '@ngx-loading-bar/core';
+import { SubjectAndBehaviourComponent } from './observable/subject-and-behaviour/subject-and-behaviour.component';
+import { Comp1Component } from './comps/comp1/comp1.component';
+import { Comp2Component } from './comps/comp2/comp2.component';
+import { Comp3Component } from './comps/comp3/comp3.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +45,10 @@ import { LoadingBarModule } from '@ngx-loading-bar/core';
     TakeComponent,
     RetryyComponent,
     DebouncetimeComponent,
+    SubjectAndBehaviourComponent,
+    Comp1Component,
+    Comp2Component,
+    Comp3Component,
   ],
   imports: [
     BrowserModule,
