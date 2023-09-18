@@ -12,6 +12,7 @@ export class Comp1Component implements OnInit{
 
   constructor(private _du:DesignUtilityService){
     this._du.username.subscribe(res=>{ //observable
+      console.log("comp1",res);
       this.userName =res;
   })
   }

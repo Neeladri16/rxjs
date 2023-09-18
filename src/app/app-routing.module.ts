@@ -16,6 +16,8 @@ import { TakeComponent } from './observable/take/take.component';
 import { RetryyComponent } from './observable/retryy/retryy.component';
 import { DebouncetimeComponent } from './observable/debouncetime/debouncetime.component';
 import { SubjectAndBehaviourComponent } from './observable/subject-and-behaviour/subject-and-behaviour.component';
+import { ReplaySubjectComponent } from './observable/replay-subject/replay-subject.component';
+import { AsyncSubjectComponent } from './observable/async-subject/async-subject.component';
 
 const routes: Routes = [
   {path:'promise',component:PromiseComponent},
@@ -33,7 +35,9 @@ const routes: Routes = [
     {path:'take',component: TakeComponent},
     {path:'retry',component:RetryyComponent},
     {path:'debounceTime',component:DebouncetimeComponent},
-    {path:'subject', component:SubjectAndBehaviourComponent}
+    {path:'subject', component:SubjectAndBehaviourComponent},
+    {path:'replaySubject', component:ReplaySubjectComponent},
+    {path:'asyncSubject', component:AsyncSubjectComponent}
   ]},
   {path:'**',redirectTo:'promise'}
 ];
